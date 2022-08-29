@@ -24,7 +24,5 @@ function displayUsers(users){
     const li = document.createElement('li');
     li.innerText = user.name;
     ul.appendChild(li);
-   }
-
-    
+   } 
 }
