@@ -1,5 +1,4 @@
 
-
 function loadPostData(){
     fetch('https://jsonplaceholder.typicode.com/comments?postId=1')
     .then(res => res.json())
@@ -18,12 +17,6 @@ function posting(data){
         `
         postArea.appendChild(postBox);
         postBox.classList.add('post-box')
-
-
-
-
-
-        console.log(post);
     }
     
 }

@@ -22,6 +22,17 @@
             border-radius: 20px;
             background-color: white;
         }
+        .quote-box{
+            width: 80%;
+            height: 150px;
+            padding: 20px;
+            border: 1px solid black;
+            margin: auto;
+            margin-bottom: 20px;
+            border-radius: 20px;
+            background-color: aliceblue;
+
+        }
     </style>
 </head>
 <body>
@@ -36,20 +47,27 @@
         <ul id="ul">
         </ul>
     </div>
-    <div id="post" class="post-container">
-        <h1 style="text-align: center ;">Post</h1>
+
+    <div class="quote-box">
+        <blockquote id="quote" class="post-box">
+           
+
+        </blockquote>
+        <button onclick="quoteBtn()" id="quote-btn" style="border: none; background-color: cyan; padding: 10px; font-size: large; margin-left: 40%; border-radius: 15px; color: white; font-weight: bolder;">Fresh Quotes</button>
 
     </div>
 
 
 
 
-
-
+    <div id="post" class="post-container">
+        <h1 style="text-align: center ;">Post</h1>
+    </div>
 
 
 
     <script src="fetch.js"></script>
     <script src="postByfetch.js"></script>
+    <script src="quote.js"></script>
 </body>
 </html>
